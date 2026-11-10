@@ -1375,7 +1375,7 @@ button {
   width: fit-content;
 }
 
-.chess-rating-thumbnail {
+#chess-rating {
   display: block;
   width: 100%;
   max-width: 480px;
