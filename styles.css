@@ -1365,3 +1365,22 @@ button {
     transition: none;
   }
 }
+
+.chess-rating-link {
+  display: block;
+  margin: 16px 0;
+  width: fit-content;
+}
+
+.chess-rating-thumbnail {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.chess-rating-thumbnail:hover {
+  transform: scale(1.02);
+}
